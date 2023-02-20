@@ -136,6 +136,7 @@ footer img{
 .social-icon{
     color: #4e54c8;
     font-size: 24px;
+    cursor: pointer;
 }
 .list{
     list-style: decimal;

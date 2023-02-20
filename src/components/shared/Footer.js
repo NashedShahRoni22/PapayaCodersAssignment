@@ -1,4 +1,4 @@
-import { MdEmail, MdPhone } from "react-icons/md";
+import { MdEmail, MdPhone, MdLocationPin } from "react-icons/md";
 import { AiFillSkype, AiFillFacebook, AiFillLinkedin, AiFillInstagram } from "react-icons/ai";
 const serivices = [
   { name: "Professional Portrait Retouching Services" },
@@ -22,7 +22,7 @@ const serivices = [
 ];
 const Footer = () => {
   return (
-    <footer className="mx-3">
+    <footer className="mx-3 pb-5">
       <div className="row">
         <div className="col-12 col-md-3">
           <div className="d-flex align-items-center justify-content-center d-md-flex-column">
@@ -51,21 +51,19 @@ const Footer = () => {
         </div>
         <div className="col-12 col-md-3">
           <h4 className="title fw-bold">Contact</h4>
-          <p>
-            Om Heera Panna Mall, Office No. 205, 2nd Floor, Oshiwara Police
-            Station Rd, Oshiwara, Mumbai, Maharashtra 400058
-          </p>
+            <p>Om Heera Panna Mall, Office No. 205, 2nd Floor, Oshiwara Police
+            Station Rd, Oshiwara, Mumbai, Maharashtra 400058</p>
           <div>
             <div className="d-flex">
-              <MdEmail className="social-icon me-2"/>
+              <MdEmail className="me-2 social-icon"/>
               <p>contact@editsfromindia.com</p>
             </div>
             <div className="d-flex">
-              <MdPhone className="social-icon me-2"/>
+              <MdPhone className="me-2 social-icon"/>
               <p>editsfromindia</p>
             </div>
             <div className="d-flex">
-              <AiFillSkype className="social-icon me-2"/>
+              <AiFillSkype className="me-2 social-icon"/>
               <p>+919076017111</p>
             </div>
           </div>
