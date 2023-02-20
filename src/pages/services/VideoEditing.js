@@ -61,50 +61,50 @@ const VideoEditing = () => {
             </div>
           ))}
         </Carousel>
-        <ul className="py-5">
+        <ul className="py-5 list">
           <li>
-            Color Correction: Balancing and adjusting the colors in the video to
+            <span className="fw-bold">Color Correction:</span> Balancing and adjusting the colors in the video to
             make it look natural and visually appealing.
           </li>
           <li>
-            Audio Editing: Enhancing the sound quality and removing any
+            <span className="fw-bold">Audio Editing:</span> Enhancing the sound quality and removing any
             background noise from the video.
           </li>
           <li>
-            Transitions and Effects: Adding transitional effects between shots,
+            <span className="fw-bold">Transitions and Effects:</span> Adding transitional effects between shots,
             such as cross-dissolves, wipes, and fades, to help the video flow
             smoothly.
           </li>
           <li>
-            Motion Graphics: Adding graphics and special effects, such as text
+            <span className="fw-bold">Motion Graphics:</span> Adding graphics and special effects, such as text
             overlays, animation, and lower-thirds, to enhance the visual appeal
             of the video.
           </li>
           <li>
-            Titles and Subtitles: Adding text to the video, such as headings,
+            <span className="fw-bold">Titles and Subtitles:</span> Adding text to the video, such as headings,
             captions, and subtitles, to provide additional context and
             information.
           </li>
           <li>
-            Image Stabilization: Reducing camera shake and making the video more
+            <span className="fw-bold">Image Stabilization:</span> Reducing camera shake and making the video more
             stable and professional looking.
           </li>
           <li>
-            Temporal and Spatial Scaling: Changing the speed of the video, as
+            <span className="fw-bold">Temporal and Spatial Scaling:</span> Changing the speed of the video, as
             well as its aspect ratio, to fit the desired look and feel of the
             final product.
           </li>
           <li>
-            Green Screen Keying: Removing the green background from a video shot
+            <span className="fw-bold">Green Screen Keying:</span> Removing the green background from a video shot
             in front of a green screen and replacing it with a different
             background.
           </li>
           <li>
-            Cut and Trim: Removing unnecessary or redundant footage and cutting
+            <span className="fw-bold">Cut and Trim:</span> Removing unnecessary or redundant footage and cutting
             the video down to its most essential parts.
           </li>
           <li>
-            Split Screen: Splitting the screen into multiple sections to show
+            <span className="fw-bold">Split Screen:</span> Splitting the screen into multiple sections to show
             multiple shots or angles at the same time.
           </li>
         </ul>

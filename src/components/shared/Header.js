@@ -14,7 +14,7 @@ const Header = () => {
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll" className="shadow p-2 rounded">
-          <button class="fw-bolder btn btn-funky-moon text-white">Request Quetos</button>
+          <button className="fw-bold book-now">Request Quetos</button>
           <Nav className="me-auto ms-auto my-2 my-lg-0 navbar-list">
             <Nav.Link href="/">Home</Nav.Link>
             <NavDropdown title="Services" id="navbarScrollingDropdown">
@@ -25,11 +25,15 @@ const Header = () => {
               </NavDropdown.Item>
             </NavDropdown>
             <Nav.Link href="/portfolio/Portfolio">Potfolio</Nav.Link>
-            <Nav.Link href="#">Blog</Nav.Link>
+            <Nav.Link href="/aboutUs/AboutUs">About Us</Nav.Link>
           </Nav>
           <div className="d-flex gap-4 my-3">
-            <Link href={'/authentication/Login'} class="fw-bolder btn btn-purple-moon text-white">Login</Link>
-            <Link href={'/authentication/Register'} class="fw-bolder btn btn-purple-moon text-white">Register</Link>
+            <Link href={'/authentication/Login'}>
+              <button className="explore-now fw-bold">Login</button>
+            </Link>
+            <Link href={'/authentication/Register'}>
+              <button className="explore-now fw-bold">Register</button>
+            </Link>
           </div>
         </Navbar.Collapse>
       </Container>

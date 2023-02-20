@@ -60,34 +60,34 @@ const AlbumEditing = () => {
             </div>
           ))}
         </Carousel>
-        <ul>
+        <ul className="list py-5">
           <li>
-            Layout Design: This includes designing the overall look and feel of
+            <span className="fw-bold">Layout Design:</span> This includes designing the overall look and feel of
             the album, including the placement of images, the use of graphics
             and other design elements.
           </li>
           <li>
-            Image Selection and Cropping: This involves selecting the best
+            <span className="fw-bold">Image Selection and Cropping:</span> This involves selecting the best
             images for the album and cropping them to fit the desired layout.
           </li>
           <li>
-            Color Correction and Retouching: This involves adjusting the color
+            <span className="fw-bold">Color Correction and Retouching:</span> This involves adjusting the color
             balance, brightness and contrast of the images to make them look
             their best. Retouching involves removing any blemishes, lines or
             spots from the images.
           </li>
           <li>
-            Backgrounds and Textures: This involves adding backgrounds, textures
+            <span className="fw-bold">Backgrounds and Textures:</span> This involves adding backgrounds, textures
             and design elements to enhance the visual appeal of the images in
             the album.
           </li>
           <li>
-            Effects and Filters: This involves adding special effects and
+            <span className="fw-bold">Effects and Filters:</span> This involves adding special effects and
             filters to the images to create a unique and personalized look for
             the album.
           </li>
           <li>
-            Printing and Binding: This involves printing the final design on
+            <span className="fw-bold">Printing and Binding:</span> This involves printing the final design on
             high-quality paper and binding it into a hardcover or softcover
             album that is ready to display.
           </li>
@@ -96,7 +96,7 @@ const AlbumEditing = () => {
         <div className="row row-cols-2 row-cols-md-3 row-cols-lg-4 g-4">
           {aldumEditingCards.map((c) => (
             <div className="col">
-              <div className="text-center bg-white shadow p-2">
+              <div className="text-center bg-white shadow rounded p-2">
                 <img src={c.img} alt="" className="img-fluid"/>
                 <p className="fw-bold py-2">{c.name}</p>
                 <button className="book-now fw-bold">Book Now</button>

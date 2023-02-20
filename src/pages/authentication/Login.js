@@ -22,17 +22,14 @@ const login = () => {
           <Form className="shadow p-4 rounded">
             <div className="mb-5">
               <h3 className="blue-header">Login Now</h3>
-              <span>New here? </span>
-              <Link href={"/authentication/Register"}>
-                Register now
-              </Link>
+              <span className="fw-bold">
+                New here?{" "}
+                <Link href={"/authentication/Register"}>Register now</Link>
+              </span>
             </div>
             <Form.Group className="mb-3" controlId="formBasicEmail">
               <Form.Label>Email address</Form.Label>
               <Form.Control type="email" placeholder="Enter email" />
-              <Form.Text className="text-muted">
-                We'll never share your email with anyone else.
-              </Form.Text>
             </Form.Group>
 
             <Form.Group className="mb-3" controlId="formBasicPassword">
@@ -40,9 +37,13 @@ const login = () => {
               <Form.Control type="password" placeholder="Password" />
               <Form.Text className="text-muted">Forget password?</Form.Text>
             </Form.Group>
-            <Button className="blue-header" type="submit">
+            <button className="explore-now fw-bold w-100" type="submit">
               Login Now
-            </Button>
+            </button>
+            <p className="fw-bold my-3 text-center">OR</p>
+            <button className="explore-now fw-bold w-100" type="submit">
+              Login with OTP
+            </button>
           </Form>
           <div>
             <Lottie animationData={loginAnimation} style={style} />

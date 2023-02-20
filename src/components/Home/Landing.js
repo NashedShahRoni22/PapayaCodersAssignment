@@ -5,11 +5,11 @@ const Landing = () => {
         <h4 className="fw-bold display-6 lh-base">
           Welcome to <br /> Edits From India <br /> Premium Quality Edits
         </h4>
-        <h5 className="my-3 text-muted">
+        <h5 className="my-3">
           Find Value and Build confidence, Lorem Ipsum is simply <br />
           dummy text of printing and typesetting industry.
         </h5>
-        <button class="btn btn-purple-moon text-white fw-bold">
+        <button className="fw-bold book-now">
           Get Started
         </button>
       </div>

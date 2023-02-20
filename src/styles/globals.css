@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloock&family=Lato&display=swap');
+*{
+    font-family: 'Lato', sans-serif;
+}
+h4{
+    font-family: 'Gloock', serif; 
+}
 body{
     background-image: linear-gradient(to left top, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff, #f5f2ff, #eee4fd, #e9d5fa, #e5b2ed, #e78bd6a3, #eb5db5a5, #ec008e77);
     background-repeat: no-repeat;
@@ -90,6 +97,46 @@ body{
     color: #ec008c;
     border: 1px solid #ec008c;
 }
+.explore-now{
+    background: #4e54c8;
+    color: white;
+    padding: 8px 16px;
+    border: 1px solid white;
+    border-radius: 16px;
+}
+.explore-now:hover{
+    background: white;
+    color: #4e54c8;
+    border: 1px solid #4e54c8;
+}
 .title{
     color: #ec008c;
+}
+.blue-title{
+    color: #4e54c8;
+}
+.hero{
+    background: url(../../public/abus.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 40vh;
+}
+.hero-mask{
+    background-color: #000;
+    opacity: 0.8;
+}
+.client-box{
+    height: 150px;
+    width: 200px;
+}
+footer img{
+    height: 100px;
+    width: 100px;
+}
+.social-icon{
+    color: #4e54c8;
+    font-size: 24px;
+}
+.list{
+    list-style: decimal;
 }

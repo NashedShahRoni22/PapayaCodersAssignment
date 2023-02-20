@@ -59,7 +59,7 @@ const Rightbar = () => {
       <img src="" alt="" />
 
       <div>
-        <h3 className="pink-header">Frequently Asked Question</h3>
+        <h3 className="pink-header">Frequently Asked Question!</h3>
 
         {questions.map((q, i) => (
           <Accordion key={i} className="my-2">

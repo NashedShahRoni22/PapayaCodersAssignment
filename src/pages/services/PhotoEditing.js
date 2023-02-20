@@ -79,45 +79,45 @@ const PhotoEditing = () => {
             are used by professional photographers, individuals, and businesses
             to improve the visual impact and overall quality of their photos.
           </h6>
-          <ul className="content">
+          <ul className="content list">
             <li>
-              Color correction: Adjusting the overall color balance, saturation,
+              <span className="fw-bold">Color correction:</span> Adjusting the overall color balance, saturation,
               and exposure to improve the appearance of an image.
             </li>
             <li>
-              Blemish removal: Removing skin imperfections, such as blemishes,
+              <span className="fw-bold">Blemish removal:</span> Removing skin imperfections, such as blemishes,
               spots, and wrinkles.
             </li>
             <li>
-              Object removal: Removing unwanted objects or distractions from an
+              <span className="fw-bold">Object removal:</span> Removing unwanted objects or distractions from an
               image.
             </li>
             <li>
-              Background change: Changing the background of an image to improve
+              <span className="fw-bold">Background change:</span> Changing the background of an image to improve
               the composition or fit the theme of the image.
             </li>
             <li>
-              Shadows and highlights: Adjusting the brightness and contrast of
+              <span className="fw-bold">Shadows and highlights:</span> Adjusting the brightness and contrast of
               specific areas of an image to enhance the visual appeal.
             </li>
             <li>
-              Sharpening: Improving the clarity and sharpness of an image to
+              <span className="fw-bold">Sharpening:</span> Improving the clarity and sharpness of an image to
               make it more visually appealing.
             </li>
             <li>
-              Resizing: Changing the size of an image to fit a specific
+              <span className="fw-bold">Resizing:</span> Changing the size of an image to fit a specific
               requirement or aspect ratio.
             </li>
             <li>
-              Cropping: Trimming an image to improve the composition or focus on
+              <span className="fw-bold">Cropping:</span> Trimming an image to improve the composition or focus on
               a specific area of the image.
             </li>
             <li>
-              Noise reduction: Reducing the grain or speckling in an image to
+              <span className="fw-bold">Noise reduction:</span> Reducing the grain or speckling in an image to
               improve its quality.
             </li>
             <li>
-              Watermark removal: Removing a watermark or logo from an image.
+              <span className="fw-bold">Watermark removal:</span> Removing a watermark or logo from an image.
             </li>
           </ul>
         </div>

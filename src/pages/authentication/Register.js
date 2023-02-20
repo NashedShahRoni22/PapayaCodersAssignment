@@ -22,10 +22,34 @@ const Register = () => {
           <Form className="shadow p-4 rounded">
             <div className="mb-5">
               <h3 className="blue-header">Create a new account</h3>
-              <span>Already registered? </span>
-              <Link href={"/authentication/Login"}>Login now</Link>
+              <span className="fw-bold">
+                Already registered?{" "}
+                <Link href={"/authentication/Login"}>Login now</Link>
+              </span>
             </div>
+            
             <div className="row row-cols-2">
+            <div class="input-group mb-3">
+              <label class="input-group-text" for="inputGroupSelect01">
+              Role
+              </label>
+              <select class="form-select" id="inputGroupSelect01">
+                <option value="1">Consumer</option>
+                <option value="2">Company</option>
+              </select>
+            </div>
+            <div class="input-group mb-3">
+              <label class="input-group-text" for="inputGroupSelect01">
+              Reference
+              </label>
+              <select class="form-select" id="inputGroupSelect01">
+                <option value="1">Photographer</option>
+                <option value="2">Videographer</option>
+                <option value="2">Twitter</option>
+                <option value="2">Linkedin</option>
+                <option value="2">Instagram</option>
+              </select>
+            </div>
               <Form.Group className="mb-3" controlId="formBasicFirstName">
                 <Form.Label>First Name</Form.Label>
                 <Form.Control type="text" placeholder="Enter first name" />
@@ -52,11 +76,23 @@ const Register = () => {
                 <Form.Label>Confirm Password</Form.Label>
                 <Form.Control type="password" placeholder="Confirm Password" />
               </Form.Group>
+              <Form.Group className="mb-3" controlId="formBasicCountry">
+                <Form.Label>Country</Form.Label>
+                <Form.Control type="text" placeholder="Enter Country" />
+              </Form.Group>
+              <Form.Group className="mb-3" controlId="formBasicCity">
+                <Form.Label>City</Form.Label>
+                <Form.Control type="text" placeholder="Enter City" />
+              </Form.Group>
+              <Form.Group className="mb-3" controlId="formBasicState">
+                <Form.Label>State</Form.Label>
+                <Form.Control type="text" placeholder="Enter State" />
+              </Form.Group>
             </div>
 
-            <Button className="blue-header" type="submit">
+            <button className="explore-now fw-bold w-100" type="submit">
               Register Now
-            </Button>
+            </button>
           </Form>
           <div>
             <Lottie animationData={loginAnimation} style={style} />
